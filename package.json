@@ -1,0 +1,54 @@
+{
+  "name": "@techgeek/validator",
+  "version": "1.0.0",
+  "description": "A simple react component that accepts a list of password requirements and updates each as they are fulfilled",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SyedShamail1/react-validation-library.git"
+  },
+  "keywords": [
+    "react-validation",
+    "react"
+  ],
+  "author": "Syed M. Shamail <syedshamail3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@storybook/addon-essentials": "^7.0.6",
+    "@storybook/addon-interactions": "^7.0.6",
+    "@storybook/addon-links": "^7.0.6",
+    "@storybook/blocks": "^7.0.6",
+    "@storybook/react": "^7.0.6",
+    "@storybook/react-webpack5": "^7.0.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "babel-loader": "^9.1.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.20.6",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^7.0.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
